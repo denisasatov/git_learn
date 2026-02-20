@@ -62,3 +62,17 @@ git branch
 ```sh
 git checkout <название ветки/id commit>
 ```
+
+Добавить удалённый(далеко) репозиторий:
+```sh
+git remote add origin <ссылка>
+```
+Посмотреть список удалённый(далеко) репозиторий:
+```sh
+git remote -v
+```
+
+Удаленние удалённого репозитория:
+```sh
+git remote  remove origin
+```
