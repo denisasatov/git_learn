@@ -91,3 +91,8 @@ git push -u origin <название ветки>
 ```sh
 git clone <ccылка на репозиторий>
 ```
+
+Cтянуть и слить ветку с текущим состоянием:
+```sh
+git pull origina main
+```
