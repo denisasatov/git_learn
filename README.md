@@ -1,32 +1,32 @@
 # Изучение GIT
 Инициализация git в каталоге:
-```
+```sh
 git init  
 ```
 
 Статус git:
-```
+```sh
 git status
 ```
 
 Добавить файл для отслеживания версий:
-```
+```sh
 git add <file>
 ```
 
 Фиксация версий:
-```
+```sh
 git commit -m "comment"
 ```
 
 Настройка user:
-```
+```sh
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
 Показывает все "коммиты" в полной форме:
-```
+```sh
 git log
 ```
 
@@ -39,16 +39,26 @@ git log --oneline --all --graph
 ```
 
 Откат до последнего "коммита":
-```
+```sh
 git reset --hard
 ```
 
 Переключение на фиксированное состояние:
-```
+```sh
 git checkout <commit id>
 ```
 
 Переход в последнее место где были:
-```
+```sh
 git switch -
+```
+
+Список веток:
+```sh
+git branch
+```
+
+Перенестись в нужную ветку:
+```sh
+git checkout <название ветки/id commit>
 ```
