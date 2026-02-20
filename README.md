@@ -25,9 +25,17 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-Показывает все "коммиты":
+Показывает все "коммиты" в полной форме:
 ```
 git log
+```
+
+Показывает все "коммиты" в краткой форме:
+``` sh
+git log --oneline --all --graph
+# --oneline - в одну линию
+# --all - все ветки
+# --graph - ввиде графа
 ```
 
 Откат до последнего "коммита":
@@ -35,3 +43,7 @@ git log
 git reset --hard
 ```
 
+Переключение на фиксированное состояние:
+```
+git checkout <commit id>
+```
