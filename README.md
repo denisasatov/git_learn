@@ -34,7 +34,7 @@ git log
 ``` sh
 git log --oneline --all --graph
 # --oneline - в одну линию
-# --all - все ветки
+# --all - все веткиgo
 # --graph - ввиде графа
 ```
 
@@ -46,4 +46,9 @@ git reset --hard
 Переключение на фиксированное состояние:
 ```
 git checkout <commit id>
+```
+
+Переход в последнее место где были:
+```
+git switch -
 ```
